@@ -12,7 +12,7 @@ class sqrt {
             if (mid <= x / mid) {
                 ans = mid;       // mid is a candidate
                 left = mid + 1;  // try to find a larger one
-            } else {
+            } else { 
                 right = mid - 1; // mid^2 > x, move left
             }
         }
